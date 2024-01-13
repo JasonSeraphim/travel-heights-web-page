@@ -1,0 +1,138 @@
+body {
+    background-image: url(background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.header {
+    background-color: rgb(150, 0, 0);
+    display: flex;
+    border-radius: 10%;
+    margin: 0;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.p{
+    font-size: 40px;
+    margin-top: 0;
+}
+
+.name{
+    font-size: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 900px;
+    
+}
+
+.nav {
+    font-size: 30px;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    height: 70px;
+}
+
+
+
+p {
+    font-size: 80px;
+    text-align: center;
+    text-decoration: overline;
+    color: white;
+    font-family: 'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif, 'Cochin', Georgia, Times, 'Times New Roman', serif;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.boxbike {
+    height: 80vh;
+}
+
+.zone1,
+.zone2,
+.zone3,
+.zone4,
+.zone5 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5%;
+    padding: 10%;
+    align-items: center;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: overline;
+}
+
+.zone1 {
+    background-image: url(RE1.jpeg);
+}
+
+.zone2 {
+    background-image: url(meteor.jpeg);
+    transition: transform 0.3s ease-in-out; /* Fix typo */
+}
+
+.zone3 {
+    background-image: url(hunter.jpeg);
+}
+
+.zone4 {
+    background-image: url(super.jpeg);
+}
+
+.zone5 {
+    background-image: url(shortgun.jpeg);
+}
+
+.zone1:hover,
+.zone2:hover,
+.zone3:hover,
+.zone4:hover,
+.zone5:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    color: white;
+    text-align: center
+}
+
+.video{
+    align-items: center;
+}
+
+.button{
+    background-color: #820000;
+    color: white;
+    padding: 10px 20px; 
+    font-size: 30px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    text-align: center;
+    margin-left: 41.5%;
+}
+
+.button:hover{
+    background-color: #ffffff; 
+}
